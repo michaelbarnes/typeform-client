@@ -1,5 +1,10 @@
 {
   "name": "typeform-client",
+  "author": {
+    "email": "barnesmich@gmail.com",
+    "name": "Michael Barnes",
+    "url": ""
+  },
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
