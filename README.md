@@ -2,6 +2,8 @@
 
 This is the un-official JavaScript client library written in TypeScript. It is a simple wrapper of the [TypeForm RESTful API's](https://developer.typeform.com/get-started/).
 
+![Node.js CI](https://github.com/michaelbarnes/typeform-client/workflows/Node.js%20CI/badge.svg)
+
 # Usage
 
 ## Install
