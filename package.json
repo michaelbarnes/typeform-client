@@ -10,8 +10,9 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc --build",
-    "test": "mocha -r ts-node/register tests/**/*.test.ts",
-    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" yarn build"
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" yarn build",
+    "postversion": "git push origin master --tags",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts"
   },
   "dependencies": {
     "node-fetch": "^2.6.0"
