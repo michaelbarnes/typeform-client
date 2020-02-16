@@ -1,0 +1,16 @@
+{
+  "name": "typeform-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.4",
+    "typescript": "^3.7.5"
+  }
+}
