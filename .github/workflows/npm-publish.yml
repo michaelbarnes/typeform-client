@@ -1,7 +1,8 @@
 name: npm-publish
 on:
   push:
-    - v* # Runs on tags only
+    tags:
+      - '*' # Runs on tags only
 jobs:
   npm-publish:
     name: npm-publish
