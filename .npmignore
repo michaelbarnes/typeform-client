@@ -2,3 +2,6 @@ tests
 src
 
 .nyc_output
+.github
+
+tsconfig.json  
