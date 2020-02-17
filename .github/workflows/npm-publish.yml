@@ -1,8 +1,9 @@
 name: Publish
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - 'v*' # Runs on tags only
 
 jobs:
   build:
@@ -17,4 +18,8 @@ jobs:
       - run: yarn build
       - run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+
+
+
+        
